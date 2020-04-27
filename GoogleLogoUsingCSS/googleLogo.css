@@ -1,0 +1,19 @@
+@font-face {
+  font-family: fs;
+  src: url("facile sans.ttf");
+}
+.box{
+  height: 500px;
+  width:  500px;
+  margin:0px auto;
+  background-clip: text;
+  background-image: conic-gradient(from -30deg at 45% 55%  ,red 0deg,red 90deg,blue 90deg,blue 180deg,green 180deg,green 270deg,yellow 270deg,yellow 360deg);
+  -webkit-background-clip:text;
+}
+.box h1{
+  font-size: 30em;
+  font-family: fs;
+  padding-left: 100px;
+  padding-bottom: 60px;
+  color:transparent;
+}
