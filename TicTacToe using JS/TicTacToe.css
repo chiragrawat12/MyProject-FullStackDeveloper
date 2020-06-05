@@ -1,0 +1,39 @@
+.jumbotron{
+    text-align: center;
+    width: 85%;
+    height:320px;
+    background-color: grey;
+    border: 1px solid red;
+    margin: 0px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+.tic td{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border:2px solid black;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tic {
+    outline:3px solid red;
+    margin: 10px auto;
+}
+
+.jumbotron h1{
+    font-size: 80px;
+}
+.jumbotron p{
+    
+    font-size: 30px;
+}
+.btn{
+    width:100px;
+    height: 40px;
+    position: absolute;
+    left:30px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
